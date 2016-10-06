@@ -1,9 +1,9 @@
 {
-  "name": "nar_drupal",
+  "name": "f1-email-kit",
   "description": "",
   "main": "",
   "license": "MIT",
-  "homepage": "https://github.com/forumone/NAR-Drupal",
+  "homepage": "forumone.com",
   "private": true,
   "ignore": [
     "**/.*",
