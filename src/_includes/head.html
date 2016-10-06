@@ -1,0 +1,18 @@
+{% assign lvl = page.url | append:'X' | split:'/' | size %}
+{% capture relative %}{% for i in (3..lvl) %}../{% endfor %}{% endcapture %}
+<head>
+ <meta charset="utf-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+
+ <title>
+   {{ page.title }}
+ </title>
+
+ <link rel="stylesheet" href="{{ relative }}css/style.css" media="all">
+
+<style type="text/css">
+  @-ms-viewport{width:device-width;}
+</style>
+</head>

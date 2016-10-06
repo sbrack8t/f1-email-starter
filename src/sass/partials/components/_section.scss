@@ -1,0 +1,36 @@
+// @file
+// Test section
+
+
+.section {
+
+}
+
+.section--body {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.section--main-deck {
+  padding: 40px 50px;
+
+  h1 {
+    color: #ffffff;
+    font-weight: normal;
+    line-height: 50px;
+    text-transform: capitalize;
+    margin-bottom: 0;
+
+    @media screen and (max-width: 700px) {
+      font-size: 30px !important;
+      line-height: 40px !important;
+    }
+
+  }
+  background: $dark-rainier;
+
+}
+
+.section-odd {
+  background: #999999;
+}

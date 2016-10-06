@@ -1,0 +1,51 @@
+// @file
+// Color variables
+// http://sass-lang.com/docs/yardoc/file.SASS_REFERENCE.html#variables_
+
+
+// Color Palette
+$aqua: #00a6b6;
+$cobalt: #296b8b;
+$smoke: #808080;
+$softblack: #333333;
+$gray: #444444;
+$offwhite: #f3f3f3;
+$deepblue: #164d69;
+
+
+$white: #fff;
+$black: #222;
+$dark-rainier: #0d5257;
+$rainier: #007681;
+$medium-rainier: #5cb8b3;
+$light-rainier: #b1e4e3;
+$del-ray-blue: #003a54;
+$f1-red: #ef413d;
+$dark-district-gray: #54585a;
+$med-district-gray: #898d8d;
+$light-district-gray: #c7c9c7;
+$light-slate-gray: #eaeff2;
+$yellow: #ffc600;
+
+
+
+//Color Placement Vars
+$primary-text-color: $dark-district-gray;
+$ui-border-color: rgba($smoke, .25);
+$secondary-text-color: #555;
+$heading-text-color: $del-ray-blue;
+$body-color: #fff;
+$link-color: $f1-red;
+$link-hover-color: $aqua;
+$selection-background: $aqua;
+$selection-foreground: #fff;
+$status-color: #4d8e4d;
+$warning-color: #fcce00;
+$error-color: #900;
+$border-color: #ccc;
+$gradient-light: rgba(255, 255, 255, 0.2);
+$gradient-dark: rgba(0, 0, 0, 0.2);
+
+// Buttons
+$button-bg-color: $aqua;
+$button-text-color: white;

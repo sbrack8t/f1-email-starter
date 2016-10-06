@@ -1,0 +1,18 @@
+---
+layout: page
+title: Email Kit
+bodyclass: home
+
+
+---
+
+
+<p>List of emails</p>
+
+<ul>
+  {% for email in site.emails  %}
+      <li>
+        <a href="{{ email.url }}">{{ email.title }}</a>
+      </li>
+{% endfor %}
+</ul>

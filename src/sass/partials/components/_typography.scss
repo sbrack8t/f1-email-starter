@@ -1,0 +1,47 @@
+
+
+
+%base-header{
+  line-height: 1.1;
+  margin: 0;
+}
+
+$headerSizeMap: (
+  header_1: $font-size-xxl,
+  header_2: $font-size-xl,
+  header_3: $font-size-lg,
+  header_4: $base-font-size
+);
+
+@function headerSize($key) {
+  @if map-has-key($headerSizeMap, $key) {
+    @return map-get($headerSizeMap, $key);
+  }
+}
+
+@each $header, $size in $headerSizeMap {
+ .#{$header} {
+   @extend %base-header;
+   font-size: $size;
+   }
+ }
+
+
+.normal-copy {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+
+.small-copy {
+  font-size: 13px;
+  line-height: 18px;
+}
+
+.layout-mobile-full {
+  @include breakpoint(max-width 480px) {
+    width: 100% !important;
+    max-width: none !important;
+  }
+
+}

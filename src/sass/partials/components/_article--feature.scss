@@ -1,0 +1,23 @@
+
+
+.article--feature {
+  @extend %card;
+
+  .article--feature-image {
+    padding-top: 30px;
+  }
+
+
+  td {
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: center;
+
+    @include breakpoint(max-width 400px) {
+      padding-left: 15px !important;
+      padding-right: 15px !important;
+    }
+
+  }
+
+}

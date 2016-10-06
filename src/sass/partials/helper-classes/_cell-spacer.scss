@@ -1,0 +1,20 @@
+
+
+%base-cell-spacer {
+  font-size: 0;
+  padding: 0;
+
+}
+
+.cell-spacer {
+  @extend %base-cell-spacer;
+  height: $spacing;
+  line-height: $spacing;
+}
+
+
+.cell-spacer-2x {
+  @extend %base-cell-spacer;
+  height: $spacing2x;
+  line-height: $spacing2x;
+}

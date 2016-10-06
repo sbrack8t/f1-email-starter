@@ -1,0 +1,14 @@
+
+.slat {
+  @extend %card;
+}
+
+.slat__media {
+  padding-left: $spacing2x;
+  padding-right: 15px;
+}
+
+.slat__content {
+  padding-right: $spacing2x;
+  padding-left: 15px;
+}

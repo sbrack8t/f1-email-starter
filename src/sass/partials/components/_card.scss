@@ -1,0 +1,11 @@
+
+%card {
+  background: #ffffff;
+  margin-bottom: $spacing;
+  box-shadow: 0 1px 5px rgba(black, 0.25);
+}
+
+
+.card {
+  @extend %card;
+}
